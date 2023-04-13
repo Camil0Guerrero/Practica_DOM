@@ -77,6 +77,6 @@ d.addEventListener("keydown", (e) => {
 	shortcuts(e);
 });
 
-darkTheme(".dark-theme-btn", "dark-mode");
+darkTheme(".light-theme-btn", "light-mode");
 networkStatus();
 speechReader();

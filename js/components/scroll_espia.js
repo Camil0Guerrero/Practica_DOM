@@ -1,7 +1,7 @@
 const d = document;
 
 export default function scrollSpy() {
-	const $sections = d.querySelectorAll(`section[data-scroll-spy]`);
+	const $sections = d.querySelectorAll("section[data-scroll-spy]");
 
 	const cb = (entries) => {
 		entries.forEach((entry) => {
@@ -15,7 +15,7 @@ export default function scrollSpy() {
 	};
 
 	const observer = new IntersectionObserver(cb, {
-		threshold: [0.5, 0.8],
+		threshold: [0.5, 0.75],
 	});
 
 	$sections.forEach((el) => observer.observe(el));

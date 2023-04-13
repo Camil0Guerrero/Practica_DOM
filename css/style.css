@@ -159,6 +159,7 @@ video {
 	font-size: 1.5rem;
 	font-weight: bold;
 	text-align: center;
+	color: var(--primary-color);
 }
 
 .contact-form input,
@@ -211,7 +212,7 @@ video {
 }
 
 /*** DarkThemeButton ***/
-.dark-theme-btn {
+.light-theme-btn {
 	position: fixed;
 	z-index: 999;
 	bottom: 1vw;
@@ -230,29 +231,36 @@ video {
 	transition: all 0.3s ease-out;
 }
 
-.dark-theme-btn:hover {
+.light-theme-btn:hover {
 	background-color: var(--secondary-bg-color);
 }
 
-.dark-mode {
+.light-mode {
 	background-color: #fff;
-	color: #000;
+	color: #1500ff;
+}
+
+.light-mode #seccion4 a {
+	color: #231e4a;
+	font-weight: bold;
+	font-size: 1.3rem;
+	text-decoration-color: #1500ff;
 }
 
 .panel.is-active {
 	background-color: var(--primary-bg-color);
 }
 
-.panel-btn.dark-mode .burger {
+.panel-btn.light-mode .burger {
 	background-color: var(--primary-bg-color);
 }
 
-.panel-btn.dark-mode .burger::after,
-.panel-btn.dark-mode .burger::before {
+.panel-btn.light-mode .burger::after,
+.panel-btn.light-mode .burger::before {
 	background-color: var(--primary-bg-color);
 }
 
-.panel-btn.dark-mode .off-burger {
+.panel-btn.light-mode .off-burger {
 	background-color: white;
 }
 
@@ -264,7 +272,7 @@ video {
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: var(--primary-color);
-	transition: all 0.3 ease;
+	transition: all 0.3s ease;
 	background-color: var(--primary-bg-color);
 	text-align: center;
 }
@@ -290,6 +298,7 @@ video {
 	display: block;
 	margin: 0.5rem auto;
 	padding: 0.25rem;
+	width: 90%;
 }
 
 .narrator > textarea::placeholder {
@@ -531,7 +540,7 @@ video {
 	body {
 		display: grid;
 		grid-template-columns: 80% 20%;
-		grid-template-rows: 4rem auto;
+		grid-template-rows: 3rem 1fr;
 
 		grid-template-areas:
 			"header panel"
@@ -542,7 +551,7 @@ video {
 		grid-area: main;
 	}
 
-	.header {
+	header {
 		grid-area: header;
 	}
 
@@ -569,11 +578,12 @@ video {
 
 	.menu-title {
 		background-color: var(--secondary-bg-color);
+		color: var(--primary-color);
 		font-weight: bold;
 		text-align: center;
 		font-size: 1.5rem;
-		height: 4rem;
-		line-height: 4rem;
+		height: 3rem;
+		line-height: 3rem;
 	}
 
 	.menu a {

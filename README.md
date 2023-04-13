@@ -9,3 +9,7 @@ Estos ejercicios están enfocados en la manipulación del DOM, los eventos y alg
 - [Twitter](https://twitter.com/cristian321893)
 - [Facebook](https://www.facebook.com/camilo.guerrero.3597789/)
 - [Instagram](https://www.instagram.com/camiloguerrero63/)
+
+### Gracias [JonMircha](https://www.youtube.com/@jonmircha)
+
+Todas las anotaciones y la mayoría de mis conocimientos hasta el momento es gracias a él. Lo recomiendo para iniciar o profundizar en este mundo

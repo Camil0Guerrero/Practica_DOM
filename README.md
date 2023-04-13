@@ -13,3 +13,7 @@ Estos ejercicios están enfocados en la manipulación del DOM, los eventos y alg
 ### Gracias [JonMircha](https://www.youtube.com/@jonmircha)
 
 Todas las anotaciones y la mayoría de mis conocimientos hasta el momento es gracias a él. Lo recomiendo para iniciar o profundizar en este mundo
+
+#### Despliegue del proyecto
+
+Puedes ver como quedo nuestro [proyecto](https://camil0guerrero.github.io/Practica_DOM/)
